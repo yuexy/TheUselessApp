@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.theuselessapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/GnEmptyTheme" >
+        <activity
+            android:name="com.example.theuselessapp.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.theuselessapp.MikuDance"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  >
+        </activity>
+        
+        <activity
+            android:name="com.example.theuselessapp.ABlueBox"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  >
+        </activity>
+        
+        <activity
+            android:name="com.example.theuselessapp.IsMyPhoneOn"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  >
+        </activity>
+        
+        <activity
+            android:name="com.example.theuselessapp.AGravityBall"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  >
+        </activity>
+        
+        <activity
+            android:name="com.example.theuselessapp.APigSnout"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  >
+        </activity>
+        
+        <activity
+            android:name="com.example.theuselessapp.ALonelyFrog"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  >
+        </activity>
+
+        <activity
+            android:name="com.example.theuselessapp.ShakeMe"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  >
+        </activity>
+
+        <activity
+                android:name="com.example.hitmebyfish.HitMeByFish"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait"  >
+        </activity>
+        
+    </application>
+
+</manifest>
